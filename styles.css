@@ -122,13 +122,15 @@ body {
   align-items: center;
   margin: 1rem 0;
   width: 100%;
+  color: var(--very-dark-grayish-blue);
 }
 
 input[type="checkbox"] {
   display: none;
 }
 
-input[type="checkbox"]:checked + .question{
+input[type="checkbox"]:checked + .question span{
+  color: black !important;
   font-weight: bold !important;
 }
 
